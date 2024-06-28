@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCS portal | HOME</title>
+    <style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(17, 124, 143);
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: rgb(17, 124, 143);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(17, 124, 143);
+    color: white;
+    border-radius: 5px;
+}
+
+nav .flex-align-right {
+    margin-left: auto;
+}
+
+/* Main */
+main {
+    background-color: rgb(17, 124, 143);
+    padding: 20px;
+    
+}
+
+main h2, main p, main h1 {
+    color: white;
+    
+}
+
+/* styles */
+section {
+    background-color: rgb(17, 124, 143);
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section h1, section h2, section p {
+    color: white;
+}
+
+/* Line */
+section + section {
+    border-top: 2px solid #333;
+    width: 80%;
+    margin: 40px auto 0;
+    padding-top: 40px;
+}
+
+/* Grid */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.grid-item {
+    background-color: #333;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    border-radius: 6px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item .info {
+    text-align: left;
+}
+
+.grid-item button {
+    background-color: rgb(17, 124, 143);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Services */
+.container {
+    text-align: left;
+}
+
+.container h1, .container h2 {
+    color: white;
+}
+
+.container .service {
+    margin: 20px 0;
+}
+
+/* About */
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    margin: 10px 0;
+}
+
+.container ul li .highlight {
+    font-weight: bold;
+}
+
+/* Login */
+.login-container {
+    background-color: #333;
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.login-container h2 {
+    color: white;
+}
+
+.login-container form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-container form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(17, 124, 143);
+    color: white;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(17, 124, 143);
+}
+
+    </style>
+</head>
+<body>
+    <!--home-->
+    <section>   
+     <header>
+        <h1>Welcome to placement cell</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Collages</a>
+        <a href="#">Courscs</a>
+        <a href="#">students</a>
+        <a href="#">services</a>
+        <a href="#">about</a>
+        <a href="#" class="flex-align-right">Login/signup</a>
+    </nav>
+<main>
+    <section>
+        <h2>Home</h2>
+        <img style="border-radius: 5px;" src="Screenshot 2024-03-27 110001.png" width="90%" alt="">
+        <h1 style="color: #333; font-size: x-large;">Get to Know Me</h1>
+        <p>At Placement Cell System, we understand the importance of landing a great job after graduation. 
+            That's why we're dedicated to helping our students excel both academically and professionally.
+             Our team of experts works tirelessly to provide our students with career guidance and placement
+              support that will give them a competitive edge in the job market. We believe that with the right
+               skills, knowledge and attitude, our students are capable of achieving nothing but the best.
+        </p>
+    </section>
+</main>
+</section>
+
+<!--collages-->
+<section>
+    <h1>OUR,COLLAGES FOR PLACEMENTS</h1>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="GTU.png" alt="Photo 1">
+        <div class="info">
+          <h2>GTU,CHANDKHEDA</h2>
+          <p>Gujarat Technological University
+            Nr.Vishwakarma Government Engineering College
+            Nr.Visat Three Roads, Visat - Gandhinagar Highway
+            Chandkheda, Ahmedabad - 382424 - Gujarat 
+        </p>
+          <button class="apply-btn"  onclick="window.location.href='https://www.gtu.ac.in/page.aspx?p=ContactUsC'">Apply </button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="GPERI.png" alt="Photo 2">
+        <div class="info">
+          <h2>GPERI,MEHSANA</h2>
+          <p>Near Mevad Toll-booth, Ahmedabad - Mehsana Express Highway, 
+            Ta. & Dist. Mehsana - 384460, Gujarat, India.
+            +91-9909039233
+        </p>
+          <button class="apply-btn" onclick="window.location.href='https://gperi.gtu.ac.in/'">Apply</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="DDU.png" alt="Photo 2">
+        <div class="info">
+          <h2>DDU,NADIAD</h2>
+          <p>MVJJ+33W, College Rd, Chalali, Nadiad, Gujarat 387001</p>
+          <button class="apply-btn" onclick="window.location.href='https://www.ddu.ac.in/'">Apply</button>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!--courscs-->
+<section>
+    <h1>our courscs</h1>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Java developer program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Front-end Developer Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Cloud Security IT Administrator Prohram.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Cybersecurity Specialist Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Salesforce Developer Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Java Developer Faundetion Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Professional Front-end Developer Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    
+      <div class="grid-item">
+        <div class="dot"></div>
+        <div class="text">Professional Java DEveloper Program.................👉</div>
+        <div class="box">
+          <div class="arrow"></div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--services-->
+<section>
+    <div class="container">
+        <h1 style="text-align: center;">Our Services</h1>
+        
+        <div class="service">
+            <h2 style="color: #333;">Job Listings</h2>
+            <p>We provide a platform for companies to post job openings, specifying their requirements and job 
+                descriptions. Students can browse through these listings and apply for suitable positions.
+            </p>
+        </div>
+    
+        <div class="service">
+            <h2 style="color: #333;">Resume Building</h2>
+            <p>We offer resources and guidance to help students build effective resumes that highlight their 
+                skills, experiences, and qualifications. A well-crafted resume increases their chances of getting 
+                noticed by recruiters.
+            </p>
+        </div>
+    
+        <div class="service">
+            <h2 style="color: #333;">Interview Preparation</h2>
+            <p>Our placement cell conducts workshops and training sessions to prepare students for interviews. 
+                We cover topics such as mock interviews, communication skills, and how to present oneself professionally.
+            </p>
+        </div>
+    
+        <div class="service">
+            <h2 style="color: #333;">Networking Events</h2>
+            <p>We organize networking events where students can interact with industry professionals, alumni,
+                 and recruiters. These events provide valuable opportunities for students to expand their network 
+                 and explore career prospects.
+            </p>
+        </div>
+    
+        <div class="service">
+            <h2 style="color: #333;">Internship Opportunities</h2>
+            <p>In addition to full-time job placements, we also facilitate internship 
+                opportunities for students to gain practical experience in their field of study.
+                 Internships help students develop valuable skills and enhance their employability.
+            </p>
+        </div>
+    </div>
+</section>
+    <!-- about-->
+
+<section>
+<div class="container">
+    <h1 style="text-align: center; ">About Placement Cell System</h1>
+    <p style="text-align: center; ">The Placement Cell System is a platform designed to streamline and enhance 
+        the process of recruiting students for various job opportunities. It serves as a bridge between students 
+        seeking employment and companies looking to hire skilled candidates.
+    </p>
+    
+    <p style="color: #333;">The key features of our Placement Cell System include:</p>
+    <ul>
+        <li><span class="highlight" style="color: #333;">Job Listings: </span> Companies can post job openings, specifying their requirements and job descriptions.</li>
+        <li><span class="highlight" style="color: #333;">Student Profiles:</span> Students can create profiles showcasing their skills, qualifications, and experiences.</li>
+        <li><span class="highlight" style="color: #333;">Matching Algorithm:</span> Our system employs a sophisticated algorithm to match suitable candidates with job postings based on their profiles and preferences.</li>
+        <li><span class="highlight" style="color: #333;">Communication Platform:</span> Facilitates seamless communication between students and recruiters through messaging and interview scheduling features.</li>
+        <li><span class="highlight" style="color: #333;">Analytics Dashboard:</span> Provides insights and analytics to both students and recruiters, helping them make informed decisions.</li>
+    </ul>
+
+    <div class="image-container">
+        <img style="border-radius: 5px;" src="about.png" alt="Placement Cell System">
+    </div>
+</div>
+</section>
+<!--login signup page-->
+
+<section>
+    <div class="login-container">
+        <h2>Login/Signup</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</section>
+<!--khali footer -->
+<footer>
+    <a href="#"></a>
+    <a href="#">CONTECT US</a>
+    <a href="#">TERM OF USE</a>
+    <a href="#">PRIVACT POLICY</a>
+    <a href="#">REFUND POLICY</a>
+    <a href="#">T & C</a>
+    
+</footer>
+
+</body>
+</html>
